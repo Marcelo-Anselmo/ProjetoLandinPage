@@ -30,3 +30,13 @@
   grid-auto-flow: column;
   columns: auto;
 }
+
+.icone {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.textoinformativo{
+  display: flex;
+  align-items: center;
+}
