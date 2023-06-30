@@ -76,6 +76,7 @@
 
 .card {
   margin-left: 50px;
+  width: 360px;
 }
 
 #seta-esquerda {
@@ -87,8 +88,9 @@
 }
 
 .seta {
-  margin-top: 55%;
+  margin-top: 45px;
   cursor: pointer;
+  padding-left: 10px;
 }
 
 .seta:hover {
