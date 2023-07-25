@@ -137,3 +137,77 @@ button:hover {
   box-shadow: 0px 15px 20px #05103081;
   transition-duration: 0.5s;
 }
+
+@media only screen and (max-width: 600px) {
+
+  /* Menu Superior */
+  #titulo-menusuperior {
+    margin-left: 50px;
+  }
+
+  #texto-menusuperior {
+    margin-left: 50px;
+  }
+
+  /* Menu Informacional */
+
+  #menuinformacional {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menuinformacional .icone {
+    margin: 50px 0px 50px 50px;
+    padding: 20px;
+  }
+
+  /* Seção Vídeo */
+
+  #secaovideo {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+  }
+
+  #video {
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* Carrossel */
+
+  #carrossel {
+    border-radius: 10px;
+  }
+
+  /* Divisão dos Cards */
+
+  #div-cards {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #div-cards .card {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 330px;
+  }
+
+  #seta-direita, #seta-esquerda {
+    display: none;
+  }
+
+  #Bruna {
+    display: block;
+  }
+
+  #formulario {
+    margin: 15px;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+}
